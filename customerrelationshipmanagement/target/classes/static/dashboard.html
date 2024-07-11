@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div>
+            <a href="/dashboard.html">Dashboard</a>
+            <a href="/contacts.html">Contacts</a>
+            <a href="/sales.html">Sales</a>
+            <a href="/tasks.html">Tasks</a>
+            <a href="/support.html">Support</a>
+        </div>
+        <div>
+            <a href="/logout">Logout</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <h1>Dashboard</h1>
+            <div class="table-container">
+                <h2>Sales Records</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Customer Name</th>
+                            <th>Product</th>
+                            <th>Amount</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Sales records will be dynamically populated here -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-container">
+                <h2>Tasks</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Task</th>
+                            <th>Due Date</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Tasks will be dynamically populated here -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="table-container">
+                <h2>Support Tickets</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Issue</th>
+                            <th>Customer</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Support tickets will be dynamically populated here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
