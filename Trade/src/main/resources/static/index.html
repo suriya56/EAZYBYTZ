@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Stock Simulator</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Available Stocks</h2>
+            <ul id="availableStocks"></ul>
+        </section>
+        <section>
+            <h2>Buy Stocks</h2>
+            <form id="stockForm">
+                <label for="companyBuy">Company Name:</label>
+                <input type="text" id="companyBuy" required>
+                <label for="quantityBuy">Quantity:</label>
+                <input type="number" id="quantityBuy" required>
+                <button type="submit">Buy</button>
+                <div id="buyMessage"></div>
+            </form>
+        </section>
+        <section>
+            <h2>Sell Stocks</h2>
+            <form id="sellForm">
+                <label for="companySell">Company Name:</label>
+                <input type="text" id="companySell" required>
+                <label for="quantitySell">Quantity:</label>
+                <input type="number" id="quantitySell" required>
+                <button type="submit">Sell</button>
+                <div id="sellMessage"></div>
+            </form>
+        </section>
+        <section>
+            <h2>Portfolio</h2>
+            <ul id="portfolio"></ul>
+        </section>
+        <section>
+            <h2>Transaction Logs</h2>
+            <ul id="logs"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Stock Simulator</p>
+    </footer>
+    <script src="scritp.js"></script>
+</body>
+</html>
